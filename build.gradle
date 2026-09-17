@@ -63,6 +63,10 @@ dependencies {
         def testcontainersVersion = '2.0.3'
         api "org.testcontainers:testcontainers-junit-jupiter:$testcontainersVersion"
         api "org.testcontainers:testcontainers-postgresql:$testcontainersVersion"
+
+        api 'com.amplitude:java-sdk:1.12.4'
+
+        api 'org.json:json:20231013'
     }
 }
 
